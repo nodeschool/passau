@@ -8,11 +8,9 @@
     <title>nodeschool Passau</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
     <style>
-        .navbar-burger span {
-            background-color: white;
-            top: 6px !important;
-            top: calc(50% - 0.5rem);
-            left: calc(50% - 0.5rem);
+        button.navbar-burger {
+            background-color: transparent;
+            border: none;
         }
 
         #codeOfConduct p {
@@ -81,34 +79,18 @@
         </symbol>
     </svg>
 
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar" role="navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="#">nodeschool Passau</a>
-            <div class="navbar-burger" data-target="navMenu" onclick="document.getElementById('navMenu').classList.toggle('is-active');">
-                <span class="icon is-medium">
-                    <svg style="width:2rem;height:2rem" viewBox="0 0 24 24">
-                        <path fill="#000000" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
-                    </svg>
-                </span>
-            </div>
-        </div>
+            <button class="navbar-burger" onclick="document.getElementById('navMenu').classList.toggle('is-active');">
+                <svg style="width:2.5rem;height:2.5rem" viewBox="0 0 24 24">
+                    <path fill="#000000" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+                </svg>
+            </button>
         </div>
 
         <div id="navMenu" class="navbar-menu">
             <div class="navbar-end">
-                <!-- <div class="navbar-item has-dropdown is-hoverable" onclick="document.getElementById('langDropdown').classList.toggle('is-active');">
-                    <a class="navbar-link">
-                        en | de
-                    </a>
-                    <div id="langDropdown" class="navbar-dropdown">
-                        <a class="navbar-item" href="../de">
-                            de
-                        </a>
-                        <a class="navbar-item" href="#">
-                            en
-                        </a>
-                    </div>
-                </div> -->
                 <a class="navbar-item" href="#about">About</a>
                 <a class="navbar-item" href="#events">Events</a>
                 <a class="navbar-item" href="#conduct">Code of Conduct</a>
@@ -117,7 +99,7 @@
         </div>
     </nav>
     <header id="header">
-        <img src="img/nodeschool-passau-sticker-web-shadow.svg" alt="nodeschool passau avatar">
+        <img role="presentation" src="img/nodeschool-passau-sticker-web-shadow.svg" alt="nodeschool passau avatar">
         <div class="hero">
             <div class="hero-body">
                 <div class="container has-text-centered">
@@ -156,8 +138,9 @@
                         </svg>
                     </div>
                     <h1 class="title has-text-centered">at your own pace</h1>
-                    <p>Choose from the wide variety of freely available lessons on
-                        <a href="https://nodeschool.io">nodeschool.io</a> and go through them at your pace.</p>
+                    <p>Choose from the wide variety of freely available lessons on nodeschool.io and go through them at your
+                        pace.
+                    </p>
                     <p>If working face-to-face with other interested people suits you more, attend on of our local workshops!</p>
                 </div>
                 <div class="column">
@@ -244,14 +227,14 @@
                     <div class="panel">
                         <div class="panel-heading">nodeschool Passau organizers</div>
                         <a class="panel-block" href="https://twitter.com/huberv84" title="Visit on twitter">
-                            <span class="panel-icon" aria-label="Visit twitter page of">
+                            <span class="panel-icon" role="presentation">
                                 <svg height="100%" width="100%">
                                     <use xlink:href="#icon-twitter" />
                                 </svg>
                             </span>
                             Valentin Huber</a>
                         <a class="panel-block" href="https://twitter.com/otmarjatsch" title="Visit on twitter">
-                            <span class="panel-icon" aria-label="Visit twitter page of">
+                            <span class="panel-icon" role="presentation">
                                 <svg height="100%" width="100%">
                                     <use xlink:href="#icon-twitter" />
                                 </svg>
