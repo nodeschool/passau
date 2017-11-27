@@ -8,6 +8,10 @@
     <title>nodeschool Passau</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
     <style>
+        section a {
+            text-decoration: underline;
+        }
+
         button.navbar-burger {
             background-color: transparent;
             border: none;
@@ -93,6 +97,7 @@
             <div class="navbar-end">
                 <a class="navbar-item" href="#about">About</a>
                 <a class="navbar-item" href="#events">Events</a>
+                <a class="navbar-item" href="#agenda">Agenda</a>
                 <a class="navbar-item" href="#conduct">Code of Conduct</a>
                 <a class="navbar-item" href="#contacts">Contacts</a>
             </div>
@@ -169,19 +174,39 @@
                             <p class="card-header-title">JavaScript &amp; Node.js – Getting started</p>
                         </header>
                         <div class="card-content">
-                            <p class="content">15th of December, 2017</p>
-                            <p class="content">Save the date - details will follow</p>
+                            <p class="content">15th of December 2017, 1 p.m. - 4 p.m.</p>
+                            <p class="content">Agenda: see
+                                <a href="#agenda">below</a>
+                            </p>
+                            <p class="content">Save the date - registration details will follow</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="conduct" class="hero">
+    <section id="agenda" class="hero">
+        <div class="hero-body container">
+            <h1 class="title has-text-centered">Workshop Agenda</h1>
+            <div class="columns is-centered">
+                <div id="workshopAgenda" class="column is-half">
+                    <p>The workshops we host embrace the spirit of letting you learn at your own pace. Every attendee is free
+                        to pick from the lessons provided on
+                        <a href="httpt://nodeschool.io">nodeschool.io</a>.
+                    </p>
+                    <p>
+                        The mentors lend a helping hand with getting wifi access, setting up node and the nodeschool.io lessons and any questions
+                        you have regarding JavaScript or Node.js.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="conduct" class="hero is-info">
         <div class="hero-body container">
             <h1 class="title has-text-centered">Code of Conduct</h1>
             <div class="columns is-centered">
-                <article id="codeOfConduct" class="column is-half has-text-centered">
+                <div id="codeOfConduct" class="column is-half">
                     <p>We, the organizers of Nodeschool Passau, are dedicated to providing a harassment-free community for everyone,
                         regardless of sex, gender identity or expression, sexual orientation, disability, physical appearance,
                         age, body size, race, nationality, or religious beliefs. We do not tolerate harassment of community
@@ -214,7 +239,7 @@
                         its inspirations, is licensed under the
                         <a href="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero license.</a>
                     </p>
-                </article>
+                </div>
             </div>
         </div>
     </section>
@@ -246,7 +271,7 @@
                                     <use xlink:href="#icon-twitter" />
                                 </svg>
                             </span>
-                            Helmut K&ouml;nigseder</a>                             
+                            Helmut K&ouml;nigseder</a>
                     </div>
                 </div>
             </div>
@@ -255,7 +280,8 @@
     <footer class="footer">
         <div class="container">
             <div class="content has-text-centered">
-                <p>thanks for: the great <a href="https://materialdesignicons.com/">Material Design Icons</a>
+                <p>thanks for: the great
+                    <a href="https://materialdesignicons.com/">Material Design Icons</a>
                     | the awesome
                     <a href="https://commons.wikimedia.org/w/index.php?curid=16192765" title="by High Contrast - Eigenes Werk, CC BY 3.0 de">Passau picture</a>
                 </p>
