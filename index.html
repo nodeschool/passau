@@ -71,6 +71,29 @@
             box-shadow: 5px 5px 3px 2px darkslategray;
             border-radius: 0.5rem;
         }
+
+        #installation h2 {
+            margin-top: 1em;
+            font-size: 1.5em;
+        }
+
+        #installation ul {
+            list-style: disc inside;
+            margin-left: 1em;
+        }
+
+        #contacts .panel-heading {
+            background-color: white;
+            border-color: white;
+        }
+
+        #contacts .panel-block {
+            border-color: white;
+        }
+
+        #contacts .panel-block:hover {
+            background-color: hsl(217, 71%, 53%);
+        }
     </style>
 </head>
 
@@ -99,6 +122,7 @@
                 <a class="navbar-item" href="#events">Events</a>
                 <a class="navbar-item" href="#agenda">Agenda</a>
                 <a class="navbar-item" href="#conduct">Code of Conduct</a>
+                <a class="navbar-item" href="#installation">Installation</a>
                 <a class="navbar-item" href="#contacts">Contacts</a>
             </div>
         </div>
@@ -178,7 +202,9 @@
                             <p class="content">Agenda: see
                                 <a href="#agenda">below</a>
                             </p>
-                            <p class="content">Registration and details: <a href="https://www.eventbrite.de/e/javascript-nodejs-getting-started-tickets-40137325822">Eventbrite - JavaScript &amp; Node.js – Getting started</a></p>
+                            <p class="content">Registration and details:
+                                <a href="https://www.eventbrite.de/e/javascript-nodejs-getting-started-tickets-40137325822">Eventbrite - JavaScript &amp; Node.js – Getting started</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -244,7 +270,53 @@
         </div>
     </section>
     </section>
-    <section id="contacts" class="hero">
+    <section id="installation" class="hero">
+        <div class="hero-body container">
+            <div class="columns is-centered">
+                <div id="codeOfConduct" class="column is-half">
+                    <h1 class="title has-text-centered">Installation</h1>
+                    <h2 class="title">nvm</h2>
+                    <p>We recommend that you install a node version manager such that you can upgrade to new versions easily:
+                    </p>
+                    <ul>
+                        <li>Windows:
+                            <a href="https://github.com/coreybutler/nvm-windows">nvm-windows</a>. Download nvm-setup.zip from the releases page, extract and run the installer.
+                        </li>
+                        <li>Linux:
+                            <a href="https://github.com/creationix/nvm">nvm</a>
+                        </li>
+                    </ul>
+                    <p>If you are behind a corporate proxy, open a command-line prompt and configure the proxy with
+                        <code>nvm proxy &lt;your-proxy&gt;</code>.</p>
+                    <p>An alternative to using nvm-windows is
+                        <a href="https://chocolatey.org/">Chocolatey</a>.</p>
+
+                    <h2 class="title">node and npm</h2>
+                    <p>Open a command-line prompt in admin mode and use nvm to install the latest version of node and npm available
+                        with nvm with
+                        <code>nvm install 8.9.1</code> followed by
+                        <code>nvm use 8.9.1</code>.
+                    </p>
+                    <p>Check that the installation was successfuly with
+                        <code>node --version</code>.</p>
+                    <p>If your are behind a corporate proxy, configure npm to use the proxy with
+                        <code>npm config set proxy &lt;your-proxy&gt;</code> and
+                        <code>npm config set https-proxy &lt;your-proxy&gt;</code>.</p>
+                    <h2 class="title">Visual Studio Code</h2>
+                    <p>As code editor we recommend
+                        <a href="https://code.visualstudio.com/">Visual Studio Code</a>, a free and open source IDE available for multiple platforms.</p>
+                    <h2 class="title">Your first nodeschool workshopper</h2>
+                    <p>Install your first workshopper with e.g.
+                        <code>npm install --global javascripting</code>.</p>
+                    <p>Then create a new folder "javascripting" somewhere on our computer and open the folder in Visual Studio
+                        Code. Open a terminal in Visual Studio Code (press F1 to open the search bar, type in "terminal"
+                        and select the option to toggle the integrated terminal). In the terminal, type
+                        <kbd>javascripting</kbd> and follow the instructions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts" class="hero is-info">
         <div class="hero-body container">
             <h1 class="title has-text-centered">Contacts</h1>
             <div class="columns is-centered">
