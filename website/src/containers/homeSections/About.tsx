@@ -1,8 +1,8 @@
 import React from 'react';
-import { SectionComponent } from '../Section';
+import SectionComponent from '../Section';
 import { Column, Columns, Title } from './Utility';
 
-export class About extends SectionComponent{
+export default class About extends SectionComponent{
 
     static readonly id = "about";
     static readonly title = "About";

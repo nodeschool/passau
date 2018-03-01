@@ -1,12 +1,12 @@
 import React from 'react';
 import { Section } from 'src/containers/Section';
 
-export interface SectionRendererProps {
+interface SectionRendererProps {
     toRender: Section;
     isInfo: boolean;
 }
 
-export class SectionRenderer extends React.PureComponent<SectionRendererProps, {}> {
+export default class SectionRenderer extends React.PureComponent<SectionRendererProps, {}> {
 
     render(){
         let className:string = "hero";

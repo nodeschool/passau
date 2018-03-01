@@ -9,7 +9,7 @@ interface NavigationState{
     open: boolean;
 }
 
-export class Navigation extends React.PureComponent<NavigationProps, NavigationState>{
+export default class Navigation extends React.PureComponent<NavigationProps, NavigationState>{
 
     constructor(props: NavigationProps){
         super(props);

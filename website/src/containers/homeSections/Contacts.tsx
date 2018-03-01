@@ -1,8 +1,8 @@
 import React from 'react';
-import { SectionComponent } from '../Section';
+import SectionComponent from '../Section';
 import { Half, Title, Panel, PanelTwitterLink, TwitterIconSetup } from './Utility';
 
-export class Contacts extends SectionComponent{
+export default class Contacts extends SectionComponent{
 
     static readonly id = "contact";
     static readonly title = "Contacts";

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class Footer extends React.PureComponent<{}, {}>{
+export default class Footer extends React.PureComponent<{}, {}>{
 
     render() : React.ReactNode {
         return (

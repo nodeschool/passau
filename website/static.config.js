@@ -16,6 +16,10 @@ export default {
         component: 'src/containers/Home',
       },
       {
+        path: '/BeginnersTrack',
+        component: 'src/containers/BeginnersTrack'
+      },
+      {
         is404: true,
         component: 'src/containers/404',
       },

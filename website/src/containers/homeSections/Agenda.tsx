@@ -1,8 +1,8 @@
 import React from 'react';
-import { SectionComponent } from '../Section';
+import SectionComponent from '../Section';
 import { Title, Half, LineBreak } from './Utility';
 
-export class Agenda extends SectionComponent{
+export default class Agenda extends SectionComponent{
 
     static readonly id = "agenda";
     static readonly title = "Workshop Agenda";

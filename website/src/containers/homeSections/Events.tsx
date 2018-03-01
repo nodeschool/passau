@@ -1,8 +1,8 @@
 import React from 'react';
-import { SectionComponent } from '../Section';
+import SectionComponent from '../Section';
 import { Title, Half, Card } from './Utility';
 
-export class Events extends SectionComponent{
+export default class Events extends SectionComponent{
 
     static readonly id = "events";
     static readonly title = "Events";

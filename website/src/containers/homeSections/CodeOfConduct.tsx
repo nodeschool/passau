@@ -1,8 +1,8 @@
 import React from 'react';
-import { SectionComponent } from '../Section';
+import SectionComponent from '../Section';
 import { Title, Half, ParagraphEnd } from './Utility';
 
-export class CodeOfConduct extends SectionComponent{
+export default class CodeOfConduct extends SectionComponent{
 
     static readonly id = "conduct";
     static readonly title = "Code of Conduct";

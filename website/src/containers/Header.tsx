@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class Header extends React.PureComponent<{}, {}>{
+export default class Header extends React.PureComponent<{}, {}>{
 
     render() : React.ReactNode {
         return (
