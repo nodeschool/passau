@@ -1,13 +1,13 @@
-import React from 'react';
-import SectionComponent from '../Section';
-import { MainTitle } from '../Utility';
+import React from "react";
+import SectionComponent from "../Section";
+import { MainTitle } from "../Utility";
 
-export default class Welcome extends SectionComponent{
+export default class Welcome extends SectionComponent {
 
-    static readonly id = "welcome";
-    static readonly title:string = undefined;
+    public static readonly id = "welcome";
+    public static readonly title: string = undefined;
 
-    render() : React.ReactNode{
+    public render(): React.ReactNode {
         return <MainTitle>Welcome to the nodeschool Passau!</MainTitle>;
     }
 }
