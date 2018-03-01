@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionComponent from '../Section';
-import { Title, Half, Card } from './Utility';
+import { Title, Half, Card } from '../Utility';
 
 export default class Events extends SectionComponent{
 

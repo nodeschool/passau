@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionComponent from '../Section';
-import { Half, Title, Panel, PanelTwitterLink, TwitterIconSetup } from './Utility';
+import { Half, Title, Panel, PanelTwitterLink, TwitterIconSetup } from '../Utility';
 
 export default class Contacts extends SectionComponent{
 

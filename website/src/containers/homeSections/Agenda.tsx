@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionComponent from '../Section';
-import { Title, Half, LineBreak } from './Utility';
+import { Title, Half, LineBreak } from '../Utility';
 
 export default class Agenda extends SectionComponent{
 

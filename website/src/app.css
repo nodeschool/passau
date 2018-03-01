@@ -94,4 +94,7 @@ button.navbar-burger {
 #contacts .panel-block:hover {
   background-color: hsl(217, 71%, 53%);
 }
-  
+
+p {
+  margin-top: 0.75rem !important;
+}

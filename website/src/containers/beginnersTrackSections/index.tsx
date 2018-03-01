@@ -1,10 +1,10 @@
 import { TSection } from '../Section';
 
-import About from '../homeSections/About';
-import Events from '../homeSections/Events';
+import Intro from './Intro';
+import Agenda from './Agenda';
 
 const Sections: TSection[] = [
-    About, Events
+    Intro, Agenda
 ];
 
 export default Sections;

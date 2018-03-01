@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionComponent from '../Section';
-import { MainTitle } from './Utility';
+import { MainTitle } from '../Utility';
 
 export default class Welcome extends SectionComponent{
 

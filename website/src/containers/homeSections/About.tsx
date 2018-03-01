@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionComponent from '../Section';
-import { Column, Columns, Title } from './Utility';
+import { Column, Columns, Title } from '../Utility';
 
 export default class About extends SectionComponent{
 

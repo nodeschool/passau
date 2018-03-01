@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionComponent from '../Section';
-import { Title, Half, ParagraphEnd } from './Utility';
+import { Title, Half, ParagraphEnd } from '../Utility';
 
 export default class CodeOfConduct extends SectionComponent{
 
