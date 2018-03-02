@@ -13,7 +13,6 @@ export default {
   getRoutes: async () => {
     return [
       {
-        path: '',
         component: 'src/containers/Home',
       },
       {
