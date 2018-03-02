@@ -15,7 +15,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
-    "react-static": "^4.8.5",
+    "react-static": "^5.2.0",
     "react-static-router": "^0.2.2",
     "tslint": "^5.9.1"
   },
