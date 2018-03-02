@@ -5,7 +5,7 @@
   "author": "Valentin Huber <valentin.huber@msg.group>",
   "license": "MIT",
   "scripts": {
-    "import": "node importWebsite.js"
+    "copy": "node importWebsite.js"
   },
   "devDependencies": {
     "shelljs": "^0.8.1"
