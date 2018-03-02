@@ -15,9 +15,9 @@
       },
     }
 
-      const t_0 = universal(import('../src/containers/Home'), universalOptions)
-const t_1 = universal(import('../src/containers/BeginnersTrack'), universalOptions)
-const t_2 = universal(import('../src/containers/LearningMolecules'), universalOptions)
+      const t_0 = universal(import('../src/containers/BeginnersTrack'), universalOptions)
+const t_1 = universal(import('../src/containers/LearningMolecules'), universalOptions)
+const t_2 = universal(import('../src/containers/Home'), universalOptions)
 const t_3 = universal(import('../src/containers/404'), universalOptions)
     
 
@@ -30,7 +30,7 @@ t_3
     }
 
     // Template Tree
-    const templateTree = {c:{"404":{t:"t_3"},"/":{t:"t_0"},"BeginnersTrack":{t:"t_1"},"LearningMolecules":{t:"t_2"}}}
+    const templateTree = {c:{"404":{t:"t_3"},"BeginnersTrack":{t:"t_0"},"LearningMolecules":{t:"t_1"},"/":{t:"t_2"},"passau":{c:{"BeginnersTrack":{t:"t_0"},"LearningMolecules":{t:"t_1"}},t:"t_2"}}}
 
     // Get template for given path
     const getComponentForPath = path => {
