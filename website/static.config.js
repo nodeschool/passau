@@ -10,26 +10,24 @@ export default {
   getSiteProps: () => ({
     title: 'NodeSchool Passau',
   }),
-  getRoutes: async () => {
-    return [
-      {
-        path: '/',
-        component: 'src/containers/Home',
-      },
-      {
-        path: '/BeginnersTrack',
-        component: 'src/containers/BeginnersTrack'
-      },
-      {
-        path: '/LearningMolecules',
-        component: 'src/containers/LearningMolecules'
-      },
-      {
-        is404: true,
-        component: 'src/containers/404',
-      },
-    ]
-  },
+  getRoutes: async () => [
+    {
+      path: '/',
+      component: 'src/containers/Home',
+    },
+    {
+      path: '/BeginnersTrack',
+      component: 'src/containers/BeginnersTrack'
+    },
+    {
+      path: '/LearningMolecules',
+      component: 'src/containers/LearningMolecules'
+    },
+    {
+      is404: true,
+      component: 'src/containers/404',
+    },
+  ],
   webpack: (config, { defaultLoaders }) => {
     // Add .ts and .tsx extension to resolver
     config.resolve.extensions.push('.ts', '.tsx')
