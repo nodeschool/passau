@@ -10,7 +10,7 @@ export default class About extends SectionComponent {
     render(): React.ReactNode {
         return <Half>
             <Title>Learning Molecules</Title>
-            <p>Once you got started by attending a <a href="BeginnersTrack">Beginner's Track</a> session,
+            <p>Once you got started by attending a <a href="/BeginnersTrack">Beginner's Track</a> session,
             you may choose from any of the workshopper modules listed on
             the <a href="https://nodeschool.org">NodeSchool</a> page.</p>
             <p>In order to facilitate discussions with peers in a NodeSchool Passau workshop,

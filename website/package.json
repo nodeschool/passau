@@ -6,7 +6,7 @@
   "scripts": {
     "start": "react-static start",
     "build": "react-static build",
-    "serve": "serve dist -p 3000",
+    "serve": "yarn build --staging && serve dist -p 3000",
     "lint": "tslint src/**/*.tsx"
   },
   "dependencies": {

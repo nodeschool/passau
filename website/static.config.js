@@ -13,14 +13,15 @@ export default {
   getRoutes: async () => {
     return [
       {
+        path: '/',
         component: 'src/containers/Home',
       },
       {
-        path: 'BeginnersTrack',
+        path: '/BeginnersTrack',
         component: 'src/containers/BeginnersTrack'
       },
       {
-        path: 'LearningMolecules',
+        path: '/LearningMolecules',
         component: 'src/containers/LearningMolecules'
       },
       {
