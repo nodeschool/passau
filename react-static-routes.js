@@ -1,19 +1,32 @@
 
     import React, { Component } from 'react'
     import { Route } from 'react-router-dom'
+    import universal, { setHasBabelPlugin } from 'react-universal-component'
 
-    // Template Imports
-    import src_containers_Home from '../src/containers/Home'
-import src_containers_BeginnersTrack from '../src/containers/BeginnersTrack'
-import src_containers_LearningMolecules from '../src/containers/LearningMolecules'
-import src_containers_404 from '../src/containers/404'
+    
+
+    setHasBabelPlugin()
+
+    const universalOptions = {
+      loading: () => null,
+      error: () => {
+        console.error(props.error);
+        return <div>An unknown error has occured loading this page. Please reload your browser and try again.</div>;
+      },
+    }
+
+      const t_0 = universal(import('../src/containers/Home'), universalOptions)
+const t_1 = universal(import('../src/containers/BeginnersTrack'), universalOptions)
+const t_2 = universal(import('../src/containers/LearningMolecules'), universalOptions)
+const t_3 = universal(import('../src/containers/404'), universalOptions)
+    
 
     // Template Map
     const templateMap = {
-      t_0: src_containers_Home,
-t_1: src_containers_BeginnersTrack,
-t_2: src_containers_LearningMolecules,
-t_3: src_containers_404
+      t_0,
+t_1,
+t_2,
+t_3
     }
 
     // Template Tree
@@ -31,6 +44,10 @@ t_3: src_containers_404
       } catch (e) {
         return false
       }
+    }
+
+    if (typeof document !== 'undefined') {
+      window.reactStaticGetComponentForPath = getComponentForPath
     }
 
     export default class Routes extends Component {
@@ -64,4 +81,4 @@ t_3: src_containers_404
         )
       }
     }
-  
+    
