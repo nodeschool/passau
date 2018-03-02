@@ -14,19 +14,35 @@ export default {
     {
       path: '/',
       component: 'src/containers/Home',
-    },
-    {
-      path: '/BeginnersTrack',
-      component: 'src/containers/BeginnersTrack'
-    },
-    {
-      path: '/LearningMolecules',
-      component: 'src/containers/LearningMolecules'
+      children: [
+        {
+          path: 'BeginnersTrack',
+          component: 'src/containers/BeginnersTrack'
+        },
+        {
+          path: 'LearningMolecules',
+          component: 'src/containers/LearningMolecules'
+        }
+      ]
     },
     {
       is404: true,
       component: 'src/containers/404',
     },
+    {
+      path: 'passau',
+      component: 'src/containers/Home',
+      children: [
+        {
+          path: 'BeginnersTrack',
+          component: 'src/containers/BeginnersTrack'
+        },
+        {
+          path: 'LearningMolecules',
+          component: 'src/containers/LearningMolecules'
+        }
+      ]
+    }
   ],
   webpack: (config, { defaultLoaders }) => {
     // Add .ts and .tsx extension to resolver
