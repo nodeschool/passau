@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "react-static start",
-    "build": "react-static build",
+    "build": "react-static build --debug",
     "serve": "yarn build --staging && serve dist -p 3000",
     "lint": "tslint src/**/*.tsx"
   },
