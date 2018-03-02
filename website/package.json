@@ -5,8 +5,9 @@
   "license": "MIT",
   "scripts": {
     "start": "react-static start",
-    "build": "tslint src/**/*.tsx && react-static build",
-    "serve": "serve dist -p 3000"
+    "build": "react-static build",
+    "serve": "serve dist -p 3000",
+    "lint": "tslint src/**/*.tsx"
   },
   "dependencies": {
     "awesome-typescript-loader": "^3.4.1",

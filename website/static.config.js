@@ -20,6 +20,10 @@ export default {
         component: 'src/containers/BeginnersTrack'
       },
       {
+        path: '/LearningMolecules',
+        component: 'src/containers/LearningMolecules'
+      },
+      {
         is404: true,
         component: 'src/containers/404',
       },

@@ -10,20 +10,19 @@ export default class Agenda extends SectionComponent {
     render(): React.ReactNode {
         return <Half>
             <Title>Beginner's Track Agenda</Title>
-            <p>The agenda for the beginner's track session is:
+            <p>The agenda for the beginner's track session is:</p>
             <ul>
-                    <li>Setup
+                <li>Setup
                         <ul>
-                            <li>setting up nvm, node and yarn</li>
-                            <li>checking the tool setup</li>
-                            <li>setting up Visual Studio Code (VSC)</li>
-                            <li>working with the command prompt from within VSC</li>
-                        </ul>
-                    </li>
-                    <li>the <a href="https://github.com/workshopper/javascripting">javascripting</a> workshopper</li>
-                    <li>the <a href="https://github.com/workshopper/learnyounode">learnyounode</a> workshopper</li>
-                                   </ul>
-            </p>
+                        <li>setting up nvm, node and yarn (+ proxy settings)</li>
+                        <li>checking the tool setup</li>
+                        <li>setting up Visual Studio Code (VSC) (+ proxy settings)</li>
+                        <li>working with the command prompt from within VSC</li>
+                    </ul>
+                </li>
+                <li>the <a href="https://github.com/workshopper/javascripting">javascripting</a> workshopper</li>
+                <li>the <a href="https://github.com/workshopper/learnyounode">learnyounode</a> workshopper</li>
+            </ul>
         </Half>
     }
 }
