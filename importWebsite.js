@@ -6,4 +6,4 @@ if (!shell.test('-e', './website/dist/index.html')) {
     process.exit(1);
 }
 
-shell.cp('-Rf', 'website/dist/**/*', '.');
+shell.cp('-Rf', 'website/dist/*', '.');
