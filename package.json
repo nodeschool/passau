@@ -1,0 +1,13 @@
+{
+  "name": "passau",
+  "version": "1.0.0",
+  "repository": "https://github.com/nodeschool/passau.git",
+  "author": "Valentin Huber <valentin.huber@msg.group>",
+  "license": "MIT",
+  "scripts": {
+    "import": "node importWebsite.js"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.1"
+  }
+}
