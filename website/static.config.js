@@ -6,6 +6,7 @@ const typescriptWebpackPaths = require('./webpack.config.js')
 
 export default {
   entry: path.join(__dirname, 'src', 'index.tsx'),
+  siteRoot: 'https://nodeschool.io/passau/',
   getSiteProps: () => ({
     title: 'NodeSchool Passau',
   }),
