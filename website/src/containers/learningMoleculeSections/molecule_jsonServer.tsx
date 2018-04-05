@@ -17,9 +17,9 @@ export default class Molecule extends SectionComponent {
             <p>Steps:</p>
             <ol>
                 <li>create a new folder for this project</li>
-                <li>create a <code>package.json</code> file by running <code>yarn init -y</code></li>
-                <li>add JSON Server: <code>yarn add json-server</code></li>
-                <li>add a script entry to your <code>package.json</code>: <code>"scripts": {"{"} "start": "json-server --watch db.json" {"}"}</code></li>
+                <li>create a <kbd>package.json</kbd> file by running <kbd>yarn init -y</kbd></li>
+                <li>add JSON Server: <kbd>yarn add json-server</kbd></li>
+                <li>add a script entry to your <kbd>package.json</kbd>: <kbd>"scripts": {"{"} "start": "json-server --watch db.json" {"}"}</kbd></li>
                 <li>Follow the post <a href="https://medium.com/codingthesmartway-com-blog/create-a-rest-api-with-json-server-36da8680136d">
                     Create a REST API With JSON Server</a></li>
             </ol>

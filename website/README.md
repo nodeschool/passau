@@ -1,9 +1,12 @@
 # ReactStatic - Nodeschool Passau Websites
 
-Dies ist ein ReactStatic Projekt, dass die Websites für Nodeschool Passau statisch generiert.
+Dies ist ein React-Static Projekt, mit dem die Websites für die Nodeschool Passau statisch generiert werden kann.
+
 Verwende
-- `react-static start` um eine lokalen dev-Server zu starten
-- `npm run build` um die statischen Websites zu generieren
+- `yarn install`, um alle Abhängigkeiten zu installieren
+- `yarn start`, um eine lokalen dev-Server zu starten
+- `yarn build`, um die statischen Websites zu generieren
+- `yarn serve`, um die generierte Version (und nicht die dev-Version) lokal zu starten
 
 Um den Inhalt anzupassen, sind .tsx Files aus `src/containers/sections` zu verändern. Die anderen
 Dateien verwalten und rendern die Seite als Ganzes.  
