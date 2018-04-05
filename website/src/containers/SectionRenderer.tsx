@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section } from 'src/containers/Section';
+import Section from './Section';
 
 interface SectionRendererProps {
     toRender: Section;
