@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "homepage": ".",
   "scripts": {
     "start": "react-static start",
     "build": "react-static build --debug",
-    "serve": "yarn build --staging && serve dist -p 3000",
+    "serve": "npm build --staging && serve dist -p 3000",
     "lint": "tslint src/**/*.tsx"
   },
   "dependencies": {
