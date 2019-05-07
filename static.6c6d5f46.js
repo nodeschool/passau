@@ -3228,7 +3228,7 @@ var Events = /** @class */function (_super) {
                         'More details and registration at the ',
                         _react2.default.createElement(
                             'a',
-                            { href: 'https://www.meetup.com/de-DE/Nodeschool-Passau/events/260909843/' },
+                            { style: { color: 'black' }, href: 'https://www.meetup.com/de-DE/Nodeschool-Passau/events/260909843/' },
                             'meetup event page'
                         )
                     )
@@ -3785,4 +3785,4 @@ exports.default = Contacts;
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.216622f2.js.map
+//# sourceMappingURL=static.6c6d5f46.js.map
