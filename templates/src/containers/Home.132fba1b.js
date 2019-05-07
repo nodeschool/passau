@@ -756,7 +756,12 @@ var Events = /** @class */function (_super) {
                     _react2.default.createElement(
                         'p',
                         { className: 'subtitle', style: { color: 'black' } },
-                        'Stay tuned for more information'
+                        'More details and registration at the ',
+                        _react2.default.createElement(
+                            'a',
+                            { href: 'https://www.meetup.com/de-DE/Nodeschool-Passau/events/260909843/' },
+                            'meetup event page'
+                        )
                     )
                 ),
                 _react2.default.createElement(
@@ -1390,4 +1395,4 @@ exports.default = Home;
 /***/ })
 
 });
-//# sourceMappingURL=Home.e1d19a3d.js.map
+//# sourceMappingURL=Home.132fba1b.js.map

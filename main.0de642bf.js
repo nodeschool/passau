@@ -11087,7 +11087,7 @@ var universalOptions = {
 };
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
     id: '../src/containers/BeginnersTrack',
-    file: 'C:/Users/huberv/Programmieren/prod/nodeschool-passau/website/dist/react-static-routes.js',
+    file: 'C:/Users/huberv/Programmieren/passau/website/dist/react-static-routes.js',
     load: function load() {
         return Promise.all([__webpack_require__.e/* import() */(2).then(__webpack_require__.bind(null, 39)), (0, _importCss3.default)('src/containers/BeginnersTrack', {
             disableWarnings: true
@@ -11107,7 +11107,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
     id: '../src/containers/LearningMolecules',
-    file: 'C:/Users/huberv/Programmieren/prod/nodeschool-passau/website/dist/react-static-routes.js',
+    file: 'C:/Users/huberv/Programmieren/passau/website/dist/react-static-routes.js',
     load: function load() {
         return Promise.all([__webpack_require__.e/* import() */(1).then(__webpack_require__.bind(null, 40)), (0, _importCss3.default)('src/containers/LearningMolecules', {
             disableWarnings: true
@@ -11127,7 +11127,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
     id: '../src/containers/Home',
-    file: 'C:/Users/huberv/Programmieren/prod/nodeschool-passau/website/dist/react-static-routes.js',
+    file: 'C:/Users/huberv/Programmieren/passau/website/dist/react-static-routes.js',
     load: function load() {
         return Promise.all([__webpack_require__.e/* import() */(0).then(__webpack_require__.bind(null, 41)), (0, _importCss3.default)('src/containers/Home', {
             disableWarnings: true
@@ -11147,7 +11147,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
     id: '../src/containers/404',
-    file: 'C:/Users/huberv/Programmieren/prod/nodeschool-passau/website/dist/react-static-routes.js',
+    file: 'C:/Users/huberv/Programmieren/passau/website/dist/react-static-routes.js',
     load: function load() {
         return Promise.all([__webpack_require__.e/* import() */(3).then(__webpack_require__.bind(null, 42)), (0, _importCss3.default)('src/containers/404', {
             disableWarnings: true
@@ -11988,4 +11988,4 @@ module.exports = hoistNonReactStatics;
 
 /***/ })
 ],[43]);
-//# sourceMappingURL=main.f4a9bab5.js.map
+//# sourceMappingURL=main.0de642bf.js.map

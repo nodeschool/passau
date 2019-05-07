@@ -1212,7 +1212,7 @@ var universalOptions = {
 };
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
     id: '../src/containers/BeginnersTrack',
-    file: 'C:/Users/huberv/Programmieren/prod/nodeschool-passau/website/dist/react-static-routes.js',
+    file: 'C:/Users/huberv/Programmieren/passau/website/dist/react-static-routes.js',
     load: function load() {
         return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 11)), (0, _importCss3.default)('src/containers/BeginnersTrack', {
             disableWarnings: true
@@ -1232,7 +1232,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
     id: '../src/containers/LearningMolecules',
-    file: 'C:/Users/huberv/Programmieren/prod/nodeschool-passau/website/dist/react-static-routes.js',
+    file: 'C:/Users/huberv/Programmieren/passau/website/dist/react-static-routes.js',
     load: function load() {
         return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 12)), (0, _importCss3.default)('src/containers/LearningMolecules', {
             disableWarnings: true
@@ -1252,7 +1252,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
     id: '../src/containers/Home',
-    file: 'C:/Users/huberv/Programmieren/prod/nodeschool-passau/website/dist/react-static-routes.js',
+    file: 'C:/Users/huberv/Programmieren/passau/website/dist/react-static-routes.js',
     load: function load() {
         return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 13)), (0, _importCss3.default)('src/containers/Home', {
             disableWarnings: true
@@ -1272,7 +1272,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
     id: '../src/containers/404',
-    file: 'C:/Users/huberv/Programmieren/prod/nodeschool-passau/website/dist/react-static-routes.js',
+    file: 'C:/Users/huberv/Programmieren/passau/website/dist/react-static-routes.js',
     load: function load() {
         return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 14)), (0, _importCss3.default)('src/containers/404', {
             disableWarnings: true
@@ -3225,7 +3225,12 @@ var Events = /** @class */function (_super) {
                     _react2.default.createElement(
                         'p',
                         { className: 'subtitle', style: { color: 'black' } },
-                        'Stay tuned for more information'
+                        'More details and registration at the ',
+                        _react2.default.createElement(
+                            'a',
+                            { href: 'https://www.meetup.com/de-DE/Nodeschool-Passau/events/260909843/' },
+                            'meetup event page'
+                        )
                     )
                 ),
                 _react2.default.createElement(
@@ -3780,4 +3785,4 @@ exports.default = Contacts;
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.67e5fcb6.js.map
+//# sourceMappingURL=static.216622f2.js.map
